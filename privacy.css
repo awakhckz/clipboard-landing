@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+:root {
+  --StrongCyan: hsl(171, 66%, 44%);
+}
+
+body {
+  /* background-color: paleturquoise; */
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 10rem 0;
+}
+h2 {
+  color: #230d92;
+}
+h3 {
+  color: #230d92;
+}
+.info a {
+  color: #3515d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+.info a:hover {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 100;
+}
+
+span.ud {
+  color: red;
+  font-weight: bold;
+}
+#company {
+  font-weight: bold;
+  color: paleturquoise;
+}
+.cont {
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  box-shadow: 10px 10px 30px #5a689c7b;
+  width: 70%;
+  max-width: 1000px;
+  padding: 2rem;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 2rem;
+}
+
+footer {
+  background-color: #eee5e57f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 3rem 0;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+footer a {
+  color: var(--DarkGrayishBlue);
+  text-decoration: none;
+}
+
+
+@media screen and (min-width :765px){
+  body {
+    background-color:#120552 ;
+  }
+  .cont {
+    box-shadow: 10px 10px 30px #604acd;
+  }
+
+  footer a{
+    color: #fff;
+  }
+}
