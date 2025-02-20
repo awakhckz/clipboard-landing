@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  /* outline: 1px solid blue; */
+}
+
+:root {
+  --StrongCyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+  --DarkGrayishBlue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header .logo {
+  fill: var(--StrongCyan);
+  width: 35%;
+}
+footer .logo {
+  fill: var(--StrongCyan);
+  width: 60px;
+}
+
+header {
+  background-image: url(images/bg-header-desktop.png);
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    /* gap: 10rem; */
+}
+h2 {
+    font-size: 30px;
+    color: var(--DarkGrayishBlue);
+}
+h3 {
+    font-size: 20px;
+    color: var(--DarkGrayishBlue);
+}
+p {
+    font-size: 1.2rem;
+    color: var(--GrayishBlue);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 0 0;
+}
+.writeup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.download {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+button.ios {
+    background-color: var(--StrongCyan);
+    border-radius: 50px;
+    border-top: none;
+    border-bottom: 2px solid #146e6e98;
+    border-left:  none;
+    border-right:  none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #26baa48c;
+}
+button.mac {
+    background-color: var(--LightBlue);
+    border-radius: 50px;
+    border-top: none;
+    border-bottom: 2px solid #146e6e98;
+    border-left:  none;
+    border-right:  none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #3d75cf78;
+}
+
+.proposition1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 10rem 0 3rem;
+}
+.proposition2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.proposition3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 7rem 0 3rem;
+}
+
+.writeup02, .writeup03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.writeup04 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0 5rem;
+}
+
+.proposition1 img {
+    width: 100%;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0 0 10rem;
+}
+.benefits02 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 0 10rem;
+}
+.explained {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.benefit1, .benefit2, .benefit3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.proposition2 img {
+    width: 100%;
+}
+.writeup03 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.benefit4, .benefit5, .benefit6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.benefit4 img, .benefit5 img, .benefit6 img {
+    width: 3rem;
+}
+
+.supporters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+    padding: 0 0 15rem;
+}
+.supporters img {
+    width: 70%;
+}
+
+.last-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.writeup05 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.writeup05 p {
+    font-size: 16.8px;
+}
+
+.last-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:  0 0 10rem;
+}
+
+footer {
+    background-color: #ded7d733;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+footer a {
+    color: var(--DarkGrayishBlue);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* ||RESPONSIVENESS */
+
+@media screen and (min-width :940px){
+    header{
+        height: 200px;
+    }
+    header .logo {
+        width: 15%;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .writeup{
+        margin: auto;
+        width: 65%;
+    }
+    .download {
+        flex-direction: row;
+        margin: auto;
+        width: 50%;
+    }
+    button.ios {
+        font-size: 15px;
+        border-radius: 30px;
+    }
+    button.mac {
+        font-size: 15px;
+        border-radius: 30px;
+    }
+    .benefits {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        text-align: left;
+        padding: 0 10rem 0 0;
+    }
+    .benefits img {
+        width: 60%;
+    }
+    .explained {
+        width: 40%;
+        margin: -4rem 0 0 0;
+    }
+    .explained p {
+        font-size: 15.5px;
+    }
+
+
+    .proposition2 img {
+        width: 80%;
+    }
+    .writeup03 p {
+        width: 60%;
+    }
+
+    .benefits02 {
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+        justify-content: center;
+    }
+    .benefit4, .benefit5, .benefit6 {
+        width: 25%;
+        /* font-size: 15.9px; */
+    }
+
+    .proposition3 {
+        padding: 7rem 0 0;
+    }
+    .writeup04 {
+        padding: 0 0 2rem;
+    }
+
+    .supporters {
+        flex-direction: row;
+        width: 95%;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .supporters a, .supporters img {
+        width: 100%;
+    }
+    
+    .last-cta {
+        align-items: center;
+    }
+    .writeup05 {
+        width: 60%;
+    }
+    .writeup05 p{
+        width: 95%;
+        font-size: 15px;
+        margin: auto;
+    }
+
+    .last-btn {
+        flex-direction: row;
+        width: 50%;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .links {
+        flex-direction: row;
+        gap: 10rem;
+    }
+    .any {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
